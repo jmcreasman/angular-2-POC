@@ -8,7 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
+var core_1 = require("@angular/core");
 var ProductFilterPipe = (function () {
     function ProductFilterPipe() {
     }
@@ -18,13 +18,13 @@ var ProductFilterPipe = (function () {
             return product.productName.toLocaleLowerCase().indexOf(filterBy) !== -1;
         }) : value;
     };
-    ProductFilterPipe = __decorate([
-        core_1.Pipe({
-            name: 'productFilter'
-        }), 
-        __metadata('design:paramtypes', [])
-    ], ProductFilterPipe);
     return ProductFilterPipe;
 }());
+ProductFilterPipe = __decorate([
+    core_1.Pipe({
+        name: 'productFilter'
+    }),
+    __metadata("design:paramtypes", [])
+], ProductFilterPipe);
 exports.ProductFilterPipe = ProductFilterPipe;
 //# sourceMappingURL=product-filter.pipe.js.map

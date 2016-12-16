@@ -17,9 +17,8 @@ import { Component } from '@angular/core';
             <router-outlet></router-outlet>
         </div>
      </div>
-    `
-})  
+     `
+})
 export class AppComponent {
     pageTitle: string = 'Acme Product Management';
-
 }

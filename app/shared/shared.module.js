@@ -8,26 +8,26 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var common_1 = require('@angular/common');
-var forms_1 = require('@angular/forms');
-var star_component_1 = require('./star.component');
+var core_1 = require("@angular/core");
+var common_1 = require("@angular/common");
+var forms_1 = require("@angular/forms");
+var star_component_1 = require("./star.component");
 var SharedModule = (function () {
     function SharedModule() {
     }
-    SharedModule = __decorate([
-        core_1.NgModule({
-            declarations: [star_component_1.StarComponent],
-            imports: [common_1.CommonModule],
-            exports: [
-                common_1.CommonModule,
-                forms_1.FormsModule,
-                star_component_1.StarComponent
-            ]
-        }), 
-        __metadata('design:paramtypes', [])
-    ], SharedModule);
     return SharedModule;
 }());
+SharedModule = __decorate([
+    core_1.NgModule({
+        imports: [common_1.CommonModule],
+        exports: [
+            common_1.CommonModule,
+            forms_1.FormsModule,
+            star_component_1.StarComponent
+        ],
+        declarations: [star_component_1.StarComponent],
+    }),
+    __metadata("design:paramtypes", [])
+], SharedModule);
 exports.SharedModule = SharedModule;
 //# sourceMappingURL=shared.module.js.map
