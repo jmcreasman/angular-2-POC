@@ -13,12 +13,12 @@ export class StarComponent implements OnChanges {
         new EventEmitter<string>();
 
     ngOnChanges(): void {
-        // Convert x out of 5 starts
+        // Convert x out of 5 stars
         // to y out of 86px width
         this.starWidth = this.rating * 86 / 5;
     }
 
     onClick(): void {
-        this.ratingClicked.emit(`The rating ${this.rating} was clicked!`);
+        this.ratingClicked.emit(`The catch rate of this Ball is ${this.rating}x!`);
     }
 }

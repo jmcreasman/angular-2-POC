@@ -1,52 +1,262 @@
 [
     {
         "productId": 1,
-        "productName": "Leaf Rake",
-        "productCode": "GDN-0011",
-        "releaseDate": "March 19, 2016",
-        "description": "Leaf rake with 48-inch wooden handle.",
-        "price": 19.95,
-        "starRating": 3.2,
-        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/26215/Anonymous_Leaf_Rake.png"
+        "productName": "Poké Ball",
+        "productCode": "POK-0011",
+        "releaseDate": "Generation I",
+        "description": "A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.",
+        "price": 200,
+        "starRating": 1,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/9/93/Bag_Pok%C3%A9_Ball_Sprite.png"
     },
     {
         "productId": 2,
-        "productName": "Garden Cart",
-        "productCode": "GDN-0023",
-        "releaseDate": "March 18, 2016",
-        "description": "15 gallon capacity rolling garden cart",
-        "price": 32.99,
-        "starRating": 4.2,
-        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/58471/garden_cart.png"
+        "productName": "Great Ball",
+        "productCode": "GRT-0023",
+        "releaseDate": "Generation I",
+        "description": "A good, high-performance Poké Ball that provides a higher Pokémon catch rate than a standard Poké Ball can.",
+        "price": 600,
+        "starRating": 1.5,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/c/ca/Bag_Great_Ball_Sprite.png"
+    },
+    {
+        "productId": 3,
+        "productName": "Ultra Ball",
+        "productCode": "ULT-0048",
+        "releaseDate": "Generation I",
+        "description": "An ultra-high performance Poké Ball that provides a higher success rate for catching Pokémon than a Great Ball.",
+        "price": 1200,
+        "starRating": 2,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/0/03/Bag_Ultra_Ball_Sprite.png"
+    },
+    {
+        "productId": 4,
+        "productName": "Safari Ball",
+        "productCode": "SAF-0022",
+        "releaseDate": "Generation I",
+        "description": "A special Poké Ball that is used only in the in Safari Zone or Great Marsh. It is recognizable by the camouflage pattern decorating it.",
+        "price": 500,
+        "starRating": 1.5,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/e/eb/Bag_Safari_Ball_Sprite.png"
     },
     {
         "productId": 5,
-        "productName": "Hammer",
-        "productCode": "TBX-0048",
-        "releaseDate": "May 21, 2016",
-        "description": "Curved claw steel hammer",
-        "price": 8.9,
-        "starRating": 4.8,
-        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/73/rejon_Hammer.png"
+        "productName": "Master Ball",
+        "productCode": "MST-0042",
+        "releaseDate": "Generation I",
+        "description": "The best Poké Ball with the ultimate level of performance. With it, you will catch any wild Pokémon without fail.",
+        "price": 1000000,
+        "starRating": 5,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/6/6d/Bag_Master_Ball_Sprite.png"
+    },
+    {
+        "productId": 6,
+        "productName": "Level Ball",
+        "productCode": "LEV-4031",
+        "releaseDate": "Generation II",
+        "description": "A Poké Ball that makes it easier to catch Pokémon that are at a lower level than your own Pokémon.",
+        "price": 1500,
+        "starRating": 4,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/d/df/Bag_Level_Ball_Sprite.png"
+    },
+    {
+        "productId": 7,
+        "productName": "Lure Ball",
+        "productCode": "LUR-6438",
+        "releaseDate": "Generation II",
+        "description": "A Poké Ball that is good for catching Pokémon that you reel in with a Rod while out fishing.",
+        "price": 1500,
+        "starRating": 3,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/2/25/Bag_Lure_Ball_Sprite.png"
     },
     {
         "productId": 8,
-        "productName": "Saw",
-        "productCode": "TBX-0022",
-        "releaseDate": "May 15, 2016",
-        "description": "15-inch steel blade hand saw",
-        "price": 11.55,
-        "starRating": 3.7,
-        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/27070/egore911_saw.png"
+        "productName": "Moon Ball",
+        "productCode": "MOO-2304",
+        "releaseDate": "Generation II",
+        "description": "A Poké Ball that will make it easier to catch Pokémon that can evolve using a Moon Stone.",
+        "price": 1500,
+        "starRating": 4,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/f/f9/Bag_Moon_Ball_Sprite.png"
+    },
+    {
+        "productId": 9,
+        "productName": "Friend Ball",
+        "productCode": "FRI-1989",
+        "releaseDate": "Generation II",
+        "description": "A strange Poké Ball that will make the wild Pokémon caught with it more friendly toward you immediately.",
+        "price": 400,
+        "starRating": 1,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/1/17/Bag_Friend_Ball_Sprite.png"
     },
     {
         "productId": 10,
-        "productName": "Video Game Controller",
-        "productCode": "GMG-0042",
-        "releaseDate": "October 15, 2015",
-        "description": "Standard two-button video game controller",
-        "price": 35.95,
-        "starRating": 4.6,
-        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/120337/xbox-controller_01.png"
+        "productName": "Love Ball",
+        "productCode": "LOV-6969",
+        "releaseDate": "Generation II",
+        "description": "A Poké Ball that works best when catching a Pokémon that is of the opposite gender of your Pokémon.",
+        "price": 1600,
+        "starRating": 4.5,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/4/42/Bag_Love_Ball_Sprite.png"
+    },
+    {
+        "productId": 10,
+        "productName": "Heavy Ball",
+        "productCode": "TON-9999",
+        "releaseDate": "Generation II",
+        "description": "A Poké Ball that is better than usual at catching very heavy Pokémon.",
+        "price": 1600,
+        "starRating": 4.5,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/7/74/Bag_Heavy_Ball_Sprite.png"
+    },
+    {
+        "productId": 11,
+        "productName": "Fast Ball",
+        "productCode": "SPD-2000",
+        "releaseDate": "Generation II",
+        "description": "A Poké Ball that makes it easier to catch Pokémon that are usually very quick to run away.",
+        "price": 1500,
+        "starRating": 4,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/7/70/Bag_Fast_Ball_Sprite.png"
+    },
+    {
+        "productId": 12,
+        "productName": "Sport Ball",
+        "productCode": "SPT-4729",
+        "releaseDate": "Generation II",
+        "description": "A special Poké Ball that is used during the Bug-Catching Contest.",
+        "price": 800,
+        "starRating": 1.5,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/3/3e/Bag_Sport_Ball_Sprite.png"
+    },
+    {
+        "productId": 13,
+        "productName": "Premier Ball",
+        "productCode": "PRE-2948",
+        "releaseDate": "Generation III",
+        "description": "A somewhat rare Poké Ball that has been specially made to commemorate an event of some sort.",
+        "price": 200,
+        "starRating": 1,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/5/55/Bag_Premier_Ball_Sprite.png"
+    },
+    {
+        "productId": 14,
+        "productName": "Repeat Ball",
+        "productCode": "REP-3917",
+        "releaseDate": "Generation III",
+        "description": "A somewhat different Poké Ball that works especially well on Pokémon species that have been caught before.",
+        "price": 1000,
+        "starRating": 3.5,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/8/89/Bag_Repeat_Ball_Sprite.png"
+    },
+    {
+        "productId": 15,
+        "productName": "Timer Ball",
+        "productCode": "TIM-1234",
+        "releaseDate": "Generation III",
+        "description": "A somewhat different Poké Ball that becomes progressively more effective the more turns that are taken in battle.",
+        "price": 1000,
+        "starRating": 4,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/3/3d/Bag_Timer_Ball_Sprite.png"
+    },
+    {
+        "productId": 16,
+        "productName": "Nest Ball",
+        "productCode": "NST-4029",
+        "releaseDate": "Generation III",
+        "description": "A somewhat different Poké Ball that becomes more effective the lower the level of the wild Pokémon.",
+        "price": 1000,
+        "starRating": 4,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/4/42/Bag_Nest_Ball_Sprite.png"
+    },
+    {
+        "productId": 17,
+        "productName": "Dive Ball",
+        "productCode": "DIV-1384",
+        "releaseDate": "Generation III",
+        "description": "A somewhat different Poké Ball that is more effective when attempting to catch Water- or Bug-type Pokémon.",
+        "price": 1000,
+        "starRating": 3,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/f/f2/Bag_Dive_Ball_Sprite.png"
+    },
+    {
+        "productId": 18,
+        "productName": "Luxury Ball",
+        "productCode": "LUX-7777",
+        "releaseDate": "Generation III",
+        "description": "A particularly comfortable Poké Ball that makes a wild Pokémon quickly grow friendlier after being caught.",
+        "price": 1000,
+        "starRating": 1,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/8/87/Bag_Luxury_Ball_Sprite.png"
+    },
+    {
+        "productId": 19,
+        "productName": "Heal Ball",
+        "productCode": "HEA-4028",
+        "releaseDate": "Generation IV",
+        "description": "A remedial Poké Ball that restores the HP of a Pokémon caught with it and eliminates any status conditions.",
+        "price": 300,
+        "starRating": 1,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/1/17/Bag_Heal_Ball_Sprite.png"
+    },
+    {
+        "productId": 20,
+        "productName": "Quick Ball",
+        "productCode": "QUK-8983",
+        "releaseDate": "Generation IV",
+        "description": "A somewhat different Poké Ball that has a more successful catch rate if used at the start of a wild encounter.",
+        "price": 1000,
+        "starRating": 4.5,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/4/41/Bag_Quick_Ball_Sprite.png"
+    },
+    {
+        "productId": 21,
+        "productName": "Dusk Ball",
+        "productCode": "DUK-1111",
+        "releaseDate": "Generation IV",
+        "description": "A somewhat different Poké Ball that makes it easier to catch wild Pokémon at night or in dark places like caves.",
+        "price": 1000,
+        "starRating": 3.5,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/0/06/Bag_Dusk_Ball_Sprite.png"
+    },
+    {
+        "productId": 22,
+        "productName": "Cherish Ball",
+        "productCode": "CHR-9998",
+        "releaseDate": "Generation IV",
+        "description": "A quite rare Poké Ball that has been crafted in order to commemorate a special occasion of some sort.",
+        "price": 1000000,
+        "starRating": 1,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/f/ff/Bag_Cherish_Ball_Sprite.png"
+    },
+    {
+        "productId": 23,
+        "productName": "Park Ball",
+        "productCode": "PAR-3287",
+        "releaseDate": "Generation IV",
+        "description": "A special Poké Ball for the Pal Park.",
+        "price": 500000,
+        "starRating": 5,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/b/b2/Bag_Park_Ball_Sprite.png"
+    },
+    {
+        "productId": 24,
+        "productName": "Dream Ball",
+        "productCode": "DRM-2483",
+        "releaseDate": "Generation V",
+        "description": "A special Poké Ball that appears in your Bag out of nowhere in the Entree Forest. It can catch any Pokémon.",
+        "price": 500000,
+        "starRating": 5,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/4/4a/Bag_Dream_Ball_Sprite.png"
+    },
+    {
+        "productId": 25,
+        "productName": "Beast Ball",
+        "productCode": "BEA-2483",
+        "releaseDate": "Generation VII",
+        "description": "A special Poké Ball designed to catch Ultra Beasts. It has a low success rate for catching others.",
+        "price": 500000,
+        "starRating": 5,
+        "imageUrl": "http://cdn.bulbagarden.net/upload/f/f2/Bag_Beast_Ball_Sprite.png"
     }
 ]

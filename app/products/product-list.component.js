@@ -16,7 +16,7 @@ var ProductListComponent = (function () {
         this.pageTitle = 'Product List';
         this.imageWidth = 50;
         this.imageMargin = 2;
-        this.showImage = false;
+        this.showImage = true;
     }
     ProductListComponent.prototype.toggleImage = function () {
         this.showImage = !this.showImage;
